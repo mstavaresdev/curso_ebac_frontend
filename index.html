@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Módulo 7 - HTML com JS </title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h2>Formulário</h2>
+            <h4>Validação no JavaScript</h4>
+            <form id="form-mod7">
+                <input type="number" id="valor-a" required placeholder="Digite o valor A" />
+                <input type="number" id="valor-b" required placeholder="Digite o valor B" />
+                <button id="btn-submit" type="submit">Validar</button>
+            </form>
+            <p class="error-msg">
+                Negativo, <b>valor B menor que valor A!</b>
+            </p>
+            <p class="success-msg"></p>
+        </div>
+    </nav> 
+        <script src="./main.js"></script>
+    </body>
+</html>
